@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    background-color: #444;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-log {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.sign {
+    font-style:normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.reg {
+    background-color: #ffffff;
+    width: 100px;
+    border-radius: 5px;
+    margin-right: 50px;
+    color: #333;
+    text-align: center;
+}
+
+.otzv {
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 100px;
+}
+
+.icon {
+    margin: 0 5px;
+}
+
+a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.2s;
+    margin: 0 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:hover {
+    color: aqua;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2, h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+    padding: 20px;
+}
+
+.product {
+    display: block;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: #fff;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: #ccc;
+    width: 5%;
+    height: 30px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
